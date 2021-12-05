@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Start of header styling */
 /* coverted the class selector from .header to the element selector header */
 header {
     padding: 20px;
@@ -42,6 +43,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* End of header syling */
 
 a {
     color: #ffffff;
@@ -52,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* Start of Hero styling */
 .hero {
     background-image: url("../images/digital-marketing-meeting.jpg");
     height: 800px;
@@ -60,6 +63,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* End of Hero styling */
 
 .float-left {
     float: left;
@@ -71,13 +75,16 @@ p {
     margin-left: 25px;
 }
 
+/* Start of content styling */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+/* Removed individual classes for each div element. The code was repetative. Instead wrote one code based on the parent class
+content and target the specific code and just wrote code once.  */
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -86,51 +93,18 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.content img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* End of content styling */
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Start of benefits styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -142,54 +116,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Removed individual classes for each div element. The code was repetative. Instead wrote one code based on the parent class
+benefits and target the specific code and just wrote code once.  */
+.benefits div{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefits h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* End of benefits styling */
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Start of footer syling */
 /* removed the class footer on indext.html so adjusted from a class selector to a element selector, targeting the
 footer element specifically */
 footer {
@@ -202,3 +148,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* End of footer styling */
