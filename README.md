@@ -11,7 +11,7 @@ Refactor the current Horiseon website code that follows accessibility standards 
 ## Website
 https://omcewan.github.io/Horiseon-Marketing-Agency/
 
-## Screenshots
+## Screenshot
 The following images show a screenshot of the webpage after the code was refactor.
 
 ![Horiseon Webpage](./assets/images/screenshot1.png)
